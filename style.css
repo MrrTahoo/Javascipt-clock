@@ -1,0 +1,32 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#clock{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 20px auto 0 auto;
+    background-image: url(https://chairish-prod.freetls.fastly.net/image/product/sized/1e00ca9a-9067-42db-a885-ec044ce82ece/monumental-tower-clock-face-5646?aspect=fit&height=1600&width=1600);
+    background-size: cover;
+    list-style: none;
+}
+#sec, #min, #hour{
+    position: absolute;
+    width: 30px;
+    height: 600px;
+    top: 0px;
+    left: 285px;
+}
+#sec{
+    background-image: url(/jquery_clock/sechand.png);
+    z-index: 3;
+}
+#min{
+    background-image: url(/jquery_clock/minhand.png);
+    z-index: 2;
+}
+#hour{
+    background-image: url(/jquery_clock/hourhand.png);
+    z-index: 1;
+}
